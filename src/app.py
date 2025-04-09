@@ -30,7 +30,7 @@ def cadastro_usuario(nome,email):
         "nome":nome,
         "email":email
     }
-    usuarios.append(novo_usuario)
+    usuarios.append(novo_usuario) 
     return "Sucesso"
         
 print(cadastro_usuario("pedro", "pedro@gmail.com"))
